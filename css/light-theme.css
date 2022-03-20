@@ -1,0 +1,150 @@
+/* color */
+:root {
+    --color-primary1: #ffffff;
+    --color-primary2: #C4BDBC;
+    --color-secondary1: #474141;
+    --color-secondary2: #F98909;
+    --color-accent1: #A4D590;
+    --color-accent2: #222;
+  }
+  
+  .color1 {
+    background-color: var(--color-primary1);
+  }
+  .color2 {
+    background-color: var(--color-primary2);
+  }
+  .color3 {
+    background-color: var(--color-secondary1);
+  }
+  .color4 {
+    background-color: var(--color-secondary2);
+  }
+  .color5 {
+    background-color: var(--color-accent1);
+  }
+  .color6 {
+    background-color: var(--color-accent2);
+  }
+
+h1,
+h2,
+h3 {
+  color: var(--color-accent2);
+}
+p{
+  color: var(--color-accent2);
+}
+a{
+  color: var(--color-accent2);
+}
+button{
+  background-color: var(--color-accent2);
+  color: var(--color-primary1);
+}
+input[type="text"] {
+  background-color: #eee;
+  border-color: #ddd;
+  color: #222;
+}
+
+/* Menu */
+nav{
+  background-color: var(--color-primary2);
+}
+
+nav button{
+  background-color: var(--color-secondary1);
+  color: var(--color-primary1);
+}
+
+nav a {
+  color: var(--color-primary1);
+}
+
+/* header */
+
+header{
+  background-color: var(--color-secondary1);
+}
+
+header h1 {
+  color: var(--color-primary1)
+}
+
+header p {
+  color: var(--color-primary1);
+}
+
+header button {
+  background-color: var(--color-accent2);
+  color: var(--color-primary2);
+}
+
+.header_graphics{
+  background-color: var(--color-secondary2);
+}
+
+/* product section */
+#product {
+  background-color: var(--color-primary2);
+}
+
+#product h3 {
+  color: var(--color-secondary1);
+}
+
+#product p{
+  color: var(--color-secondary1);
+}
+
+#product a{
+  color: var(--color-accent2);
+}
+
+.product_graphics {
+  background-color: var(--color-primary1)
+}
+
+/* hightlight */
+.highlight div h2 {
+  color: var(--color-secondary2);
+}
+
+.highlight a {
+  color: var(--color-accent2);
+}
+
+.dark_highlight {
+  background-color: var(--color-accent2);
+}
+
+.dark_highlight h2 {
+  color: var(--color-secondary2);
+}
+
+/* request section */
+#request {
+  background-color: var(--color-primary1);
+  color:var(--color-accent2)
+}
+
+/* Footer */
+footer {
+  background-color: var(--color-primary2);
+}
+
+footer h2, h3 {
+  color: var(--color-accent2);
+}
+
+footer a {
+  color: var(--color-secondary1);
+}
+
+
+
+
+
+
+

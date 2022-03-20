@@ -1,0 +1,243 @@
+/* Resetter */
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+/* Fonts */
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Noto Serif Display", serif;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3.052rem;
+}
+
+h2 {
+  font-size: 1.953rem;
+  line-height: 2.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* UI Elements */
+button {
+  display: inline-block;
+  height: 3rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+button:hover{
+  opacity: 80%;
+}
+
+.btn-toggle{
+  border-radius: 50px;
+  padding: 0.75rem 0.5rem;
+  margin-left: 2rem
+ }
+
+input[type="text"] {
+  box-sizing: border-box;
+  width: 250px;
+  height: 3rem;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  text-align: left;
+}
+
+/* Menu */
+nav{
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+nav a.logo {
+  font-family: "Noto Serif Display", serif;
+  font-size: 1.25rem;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0px 1rem;
+}
+
+/* Header */
+header {
+  display: flex;
+  min-height: 80vh;
+  padding: 5rem;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+header button {
+  margin-bottom: 5rem;
+}
+
+.header_text {
+  width: 30vw;
+  min-width: 300px;
+}
+
+.header_graphics {
+  width: 30vw;
+  height: 30vw;
+  min-width: 300px;
+  min-height: 300px;
+  border-radius: 300px;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+/* product section */
+#product {
+  padding: 2rem;;
+}
+
+#product h3 {
+  font-size: 1.953rem;
+  line-height: 2.5rem;
+}
+a:hover{
+  opacity: 80%;
+}
+#product article {
+  display: flex;
+  min-height: 50vh;
+  padding: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.product_text {
+  width: 50vw;
+  min-width: 300px;
+}
+
+.product_graphics {
+  width: 15vw;
+  height: 15vw;
+  min-width: 150px;
+  min-height: 150px;
+  margin: 3rem;
+  border-radius: 300px;
+  z-index: 1;
+}
+
+/* highlight sections */
+.highlight {
+  display: flex;
+  min-height: 70vh;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.highlight div {
+  width: 80vw;
+}
+
+.highlight div h2 {
+  font-size: 3.052rem;
+  line-height: 4rem;
+}
+
+/* request section */
+#request {
+  display: flex;
+  min-height: 50vh;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#request div {
+  width: 50vw;
+  min-width: 450px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  padding: 5vh 2rem;
+  align-items: top;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer section.left {
+  display: flex;
+  max-width: 50vw;
+  align-items: top;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer section div {
+  margin: 0px 1rem 1rem 1rem;
+}
+
+/* animation */
+@keyframes example {
+  0%   {opacity: 100%;}
+  25%  {opacity: 90%;}
+  50%  {opacity: 100%;}
+  75%  {opacity: 90%;}
+  100% {opacity: 100%;}
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
